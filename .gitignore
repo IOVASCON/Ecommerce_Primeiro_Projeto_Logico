@@ -1,0 +1,38 @@
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Arquivos e pastas específicas do VSCode
+.vscode/
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs e bancos de dados temporários
+*.log
+*.sqlite3
+*.db
+
+# Arquivos de backup
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Configurações locais do MySQL (se houver)
+*.cnf
+
+# Arquivos de imagens locais (se não precisar no GitHub)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Diretórios de migração gerados automaticamente
+migrations/
